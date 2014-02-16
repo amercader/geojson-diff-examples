@@ -1,16 +1,18 @@
 GeoJSON diff examples
 =====================
 
+![GeoJSON diff](http://i.imgur.com/apBEgB3.png)
+
 These are a couple of datasets I created playing with GitHub's nice
 [diff visualizations for GeoJSON files][1].
 
 There are two GeoJSON files on the `output` folder, one for members
 of the United Nations and one for members of the European Union. Both are
 versioned and each of the commits shows the countries that joined on a
-particular year. This means that the [commit history][2] shows the chronology
-of the new admissions to the UN or the EU, and that when viewing
-[one particular commit][3] you can see the countries that joined that
-particular year highlighted.
+particular year. This means that the [commit history][2] for the output
+files shows the chronology of the new admissions to the UN or the EU, and that
+when viewing [one particular commit][3] you can see the countries that joined
+that particular year highlighted.
 
 Countries joining on a particular year are displayed with the same fill
 color, using GitHub's support of the [simplestyle][4] spec (colors are
