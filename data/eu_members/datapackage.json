@@ -1,0 +1,36 @@
+{
+  "name": "eu_members",
+  "title": "European Union members",
+  "description": "Member states of the European Union",
+  "licenses": [{
+    "url": "http://opendatacommons.org/licenses/pddl/",
+    "name": "Open Data Commons Public Domain",
+    "version": "1.0",
+    "id": "odc-pddl"
+  }]
+  "sources": [{
+    "name": "Wikipedia",
+    "web": "http://en.wikipedia.org/wiki/Member_state_of_the_European_Union"
+  }],
+  "resources": [{
+    "path": "eu_members.csv",
+    "schema": {
+      "fields": [
+        {
+          "id": "member_state",
+          "type": "string"
+        },
+        {
+          "id": "date_of_admission",
+          "type": "date",
+          "format": "yyyy-mm-dd"
+        },
+        {
+          "id": "year_of_admission",
+          "type": "date",
+          "format": "yyyy"
+        }
+      ]
+    }
+  }]
+}
